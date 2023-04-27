@@ -1,73 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
-:root{
-    --fonte-primaria: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
-    background-color: #F1F6F9;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    font-size: 100%;
+    background-color: #CBE4DE;
 }
 
 .container{
-    position: relative;
-    width: 85%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
-    background-color: #088395;
+    box-shadow: 0px 0px 13px 1px #000000;
+    width: 90%;
+
 }
 
 .cabecalho{
-    
     display:flex;
-    background-color: #0A4D68;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2E4F4F;
+    width: 100%;
+    padding: 24px;
+    
 }
 
 .imagem_perfil{
-    
-    padding: 1% 0 1% 8%;
-    width: 20%;
-    height: 20%;
+    height: 15rem;
 }
 
-.cabecalho__dados_perfil{
-    padding-left: 5%;
-    margin-top: 2%;
+.cabecalho__dados{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+
 }
 
-.cabecalho__nome{
-    font-family: var(--fonte-primaria);
-    color:#ffffff
+.cabecalho__info__nome{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ffff;
+    font-size: 2.5em;
 }
 
-.cabecalho__redes{
-    font-family: var(--fonte-primaria);
+.cabecalho__info__dados{
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#ffff;
+    font-size: 1.5em;
 }
 
-.cabecalho__linkedin{
-    text-decoration: none;
-    color:#ffffff;
+/******************\
+ CORPO - INFORMAÇÕES
+\******************/
+
+.apresentacao{
+    display:flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #0E8388;
 }
-
-.cabecalho__github{
-    text-decoration: none;
-    color:#ffffff;
-}
-
-.cabecalho__contato{
-    text-decoration: none;
-    color:#ffffff;
-}
-
-
-/*************\
-  DADOS PERFIL
-\*************/
 
 .apresentacao__sobre{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+}
+
+.apresentacao__sobre__conteudo{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.4em solid rgb(0, 0, 0);
+    
+}
+
+.apresentacao__sobre__titulo{
+    padding-left: 20px;
+    
+}
+
+.apresentacao__sobre__descricao{
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.escolaridade{
     display: flex;
-    flex-wrap: nowrap;
-    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
