@@ -92,6 +92,10 @@ body{
     padding-left: 20px;
 }
 
+/******************\
+ CORPO - OBJETIVO
+\******************/
+
 .objetivo{
     display: flex;
     flex-direction: column;
@@ -119,6 +123,10 @@ body{
     text-align: justify;
     padding-left: 20px;
 }
+
+/******************\
+ CORPO - FORMACAO
+\******************/
 
 .formacao{
     display: flex;
@@ -151,9 +159,9 @@ body{
     text-align: justify;
 }
 
-/*------------*\
-     CURSOS
-\*------------*/
+/******************\
+ CORPO - CURSOS
+\******************/
 
 .formacao__academica__cursos{
     display:flex;
@@ -180,9 +188,9 @@ body{
     padding-left: 20px;
 }
 
-/*------------*\
-  EXPERIENCIAS
-\*------------*/
+/******************\
+ CORPO - EXPERIENCIA
+\******************/
 
 .experiencias{
     display: flex;
@@ -215,6 +223,10 @@ body{
     padding-left: 20px;
 }
 
+/******************\
+ CORPO - HABILIDADES
+\******************/
+
 .habilidades{
     display: flex;
     flex-direction: column;
@@ -240,4 +252,70 @@ body{
 .habilidades__descricao__habilidade{
     text-align: justify;
     padding-left: 20px;
+}
+
+/******************\
+   CORPO - BOTOES
+\******************/
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+}
+
+.projetos__conteudo__geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+    gap:10px;
+    
+    
+}
+
+.projetos__descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.projetos__descricao__cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    border-left: 0.4em solid rgb(0, 0, 0);
+}
+
+.projetos__botao__primeira__linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    
+    
+}
+
+.projetos__botao__segunda__linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+.projetos__botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px #5a5a5a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+   
 }
