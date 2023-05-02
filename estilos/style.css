@@ -313,7 +313,7 @@ body{
     padding: 10px;
     width: 20%;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 1px #5a5a5a;
+    box-shadow: 0px 0px 8px 0.5px #919191;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     font-weight: bold;
@@ -322,7 +322,11 @@ body{
 
 
 
-@media (max-width:1200px){
+@media (max-width:1080px){
+
+    .container{
+        box-shadow: none;
+    }
 
     .cabecalho{
         display:flex;
@@ -367,7 +371,7 @@ body{
         padding: 10px;
         width: 50%;
         border-radius: 10px;
-        box-shadow: 0px 0px 10px 1px #5a5a5a;
+        box-shadow: 0px 0px 8px 0.5px #919191;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 100%;
         font-weight: bold;
