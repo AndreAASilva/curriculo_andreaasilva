@@ -307,19 +307,33 @@ body{
 }
 
 .projetos__botao{
-    display: flex;
-    flex-direction: row;
+    position: relative;
+    display: inline-block;
     justify-content: center;
+    width: 200px;
+    height: 50px;
     padding: 10px;
-    width: 20%;
+    background-color: #a2f9fc;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0.5px #919191;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 100%;
-    font-weight: bold;
-   
+        
 }
 
+.projetos__botao:hover{
+    background-color: #81f8fc;
+}
+
+.projetos__botao:active{
+    background-color: #3ff7fd;
+}
+
+
+.projetos__botao__textos{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
+}
 
 
 @media (max-width:1080px){
@@ -365,18 +379,25 @@ body{
     }
 
     .projetos__botao{
-        display: flex;
-        flex-direction: row;
+        position: relative;
+        display: inline-block;
         justify-content: center;
+        width: 200px;
+        height: 50px;
         padding: 10px;
-        max-width: 50%;
+        background-color: #a2f9fc;
         border-radius: 10px;
         box-shadow: 0px 0px 8px 0.5px #919191;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 100%;
-        font-weight: bold;
+        
         
     }
 
+    .projetos__botao:hover{
+        background-color: #81f8fc;
+    }
+    
+    .projetos__botao:active{
+        background-color: #3ff7fd;
+    }
     
 }
