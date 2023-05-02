@@ -65,7 +65,7 @@ body{
 .apresentacao{
     display:flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     background-color: #0E8388;
 }
 
@@ -92,9 +92,120 @@ body{
     padding-left: 20px;
 }
 
+.objetivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.objetivo__dados{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+}
+
+.objetivo__dados__conteudo{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.4em solid rgb(0, 0, 0);
+}
+
+.objetivo__dados__conteudo__titulo{
+    padding-left: 20px;
+}
+
+.objetivo__dados__conteudo__descricao{
+    text-align: justify;
+    padding-left: 20px;
+}
+
 .formacao{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+}
+
+.formacao__academica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+}
+
+.formacao__academica__informacao__geral{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.4em solid rgb(0, 0, 0);
+}
+
+.formacao__academica__titulo{
+    padding-left: 20px;
+}
+
+.formacao__academica__instituicao{
+    padding-left: 20px;
+}
+
+.formacao_academica__descricao{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.formacao__academica__cursos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+}
+
+.formacao__academica__cursos__informacoes_gerais{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.4em solid rgb(0, 0, 0);
+}
+
+.formacao__academica__cursos__cabecalho{
+    padding-left: 20px;
+}
+
+.formacao__academica__cursos__instituicao{
+    padding-left: 20px;
+}
+
+.formacao__academica__cursos__preparacao{
+    padding-left: 20px;
+}
+
+
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+.experiencias__conteudo__geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 36px 50px 36px 50px;
+    
+}
+
+.experiencias__descricao__dados__gerais{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 0.4em solid rgb(0, 0, 0);
+    
+}
+
+.experiencias__descricao__empresa{
+    
+}
+
+.experiencias__titulo{
+    padding: 20px;
+}
+
+.experiencias__descricao{
+    padding: 20px;
 }
