@@ -11,7 +11,7 @@
 
 body{
     font-size: 100%;
-    background-color: #CBE4DE;
+    background-color: #F2F9F1;
 }
 
 .container{
@@ -29,7 +29,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #2E4F4F;
+    background-color: #5C715E;
     width: 100%;
     padding: 24px;
     
@@ -66,7 +66,7 @@ body{
     display:flex;
     flex-direction: column;
     height: 100%;
-    background-color: #0E8388;
+    background-color: #DDEEDF;
 }
 
 .apresentacao__sobre{
@@ -78,18 +78,22 @@ body{
 
 .apresentacao__sobre__conteudo{
     font-family: 'Source Sans Pro', sans-serif;
-    border-left: 0.4em solid rgb(0, 0, 0);
+    border-left: 0.4em solid #5C715E;
     
 }
 
 .apresentacao__sobre__titulo{
-    padding-left: 20px;
-    
+    display: inline-block;
+    background-color: #5C715E;
+    margin: 0 20px;
+    padding: 4px 10px 4px 10px;
+    color:#ffff
 }
 
 .apresentacao__sobre__descricao{
     text-align: justify;
     padding-left: 20px;
+    
 }
 
 /******************\
@@ -100,28 +104,33 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-}
-
-.objetivo__dados{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
     padding: 36px 50px 36px 50px;
 }
 
+.objetivo__dados{
+    border-left: 0.4em solid #5C715E;
+}
+
 .objetivo__dados__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-family: 'Source Sans Pro', sans-serif;
-    border-left: 0.4em solid rgb(0, 0, 0);
+    
 }
 
 .objetivo__dados__conteudo__titulo{
-    padding-left: 20px;
+    display: inline-block;
+    background-color: #5C715E;
+    margin: 0 20px;
+    padding: 4px 10px 4px 10px;
+    color:#ffff
 }
 
 .objetivo__dados__conteudo__descricao{
     text-align: justify;
     padding-left: 20px;
+    
 }
 
 /******************\
@@ -132,31 +141,34 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 36px 50px 36px 50px;
 }
 
 .formacao__academica{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 36px 50px 36px 50px;
+    border-left: 0.4em solid #5C715E;
 }
 
 .formacao__academica__informacao__geral{
     font-family: 'Source Sans Pro', sans-serif;
-    border-left: 0.4em solid rgb(0, 0, 0);
 }
 
 .formacao__academica__titulo{
-    padding-left: 20px;
+    display: inline-block;
+    background-color: #5C715E;
+    margin: 0 20px;
+    padding: 4px 10px 4px 10px;
+    color:#ffff
 }
 
 .formacao__academica__instituicao{
     padding-left: 20px;
+    color: #5C715E;
 }
 
 .formacao_academica__descricao{
     padding-left: 20px;
     text-align: justify;
+    
 }
 
 /******************\
@@ -164,28 +176,32 @@ body{
 \******************/
 
 .formacao__academica__cursos{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 36px 50px 36px 50px;
+    margin-top: 50px;
+    border-left: 0.4em solid #5C715E;
+}
+
+.formacao__academica__cursos__cabecalho{
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px 10px 4px 10px;
+    background-color: #5C715E;
+    color:#ffff;
 }
 
 .formacao__academica__cursos__informacoes_gerais{
     font-family: 'Source Sans Pro', sans-serif;
-    border-left: 0.4em solid rgb(0, 0, 0);
-}
-
-.formacao__academica__cursos__cabecalho{
-    padding-left: 20px;
 }
 
 .formacao__academica__cursos__instituicao{
     padding-left: 20px;
+    color: #5C715E;
 }
 
 .formacao__academica__cursos__preparacao{
     text-align: justify;
+    color: #5C715E;
     padding-left: 20px;
+    
 }
 
 /******************\
@@ -196,26 +212,27 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    padding: 36px 50px 36px 50px;
     
 }
 
 .experiencias__conteudo__geral{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 36px 50px 36px 50px;
+    border-left: 0.4em solid #5C715E;
     
 }
 
 .experiencias__descricao__dados__gerais{
     font-family: 'Source Sans Pro', sans-serif;
-    border-left: 0.4em solid rgb(0, 0, 0);
+    color: #5C715E;
     
 }
 
 .experiencias__titulo{
-    padding-left: 20px;
+    display: inline-block;
+    margin:0 20px;
+    padding: 4px 10px 4px 10px;
+    background-color: #5C715E;
+    color:#ffff;
 }
 
 .experiencias__descricao{
@@ -226,7 +243,7 @@ body{
 /******************\
  CORPO - HABILIDADES
 \******************/
-
+/*
 .habilidades{
     display: flex;
     flex-direction: column;
@@ -253,6 +270,7 @@ body{
     text-align: justify;
     padding-left: 20px;
 }
+*/
 
 /******************\
    CORPO - BOTOES
@@ -271,22 +289,18 @@ body{
     justify-content: space-around;
     font-family: 'Source Sans Pro', sans-serif;
     gap:10px;
-    
+    border-left: 0.4em solid #5C715E;
     
 }
 
-.projetos__descricao{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
 .projetos__descricao__cabecalho{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 20px;
-    border-left: 0.4em solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px 10px 4px 10px;
+    background-color: #5C715E;
+    color:#ffff;
+    
 }
 
 .projetos__botao__primeira__linha{
@@ -313,18 +327,21 @@ body{
     width: 200px;
     height: 50px;
     padding: 10px;
-    background-color: #a2f9fc;
+    background-color: #B6CDBD;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0.5px #919191;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
         
 }
 
 .projetos__botao:hover{
-    background-color: #81f8fc;
+    background-color: #DDEEDF;
+    transform: translate(1px);
 }
 
 .projetos__botao:active{
-    background-color: #3ff7fd;
+    background-color: #F2F9F1;
 }
 
 
@@ -347,7 +364,6 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        background-color: #2E4F4F;
         width: 100vw;
         padding: 24px;
         
@@ -385,19 +401,22 @@ body{
         width: 200px;
         height: 50px;
         padding: 10px;
-        background-color: #a2f9fc;
+        background-color: #B6CDBD;
         border-radius: 10px;
         box-shadow: 0px 0px 8px 0.5px #919191;
+        cursor:pointer;
+        transition: 0.2s ease-in-out;
         
         
     }
 
     .projetos__botao:hover{
-        background-color: #81f8fc;
+        background-color: #DDEEDF;
+        transform: translate(0.5px);
     }
     
     .projetos__botao:active{
-        background-color: #3ff7fd;
+        background-color: #F2F9F1;
     }
     
 }
