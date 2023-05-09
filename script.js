@@ -19,6 +19,12 @@ function botaoPortfolio(){
 var terceiro_botao = document.getElementById('projetos__botao__terceiro__projeto')
 terceiro_botao.addEventListener('click', botaoPortfolio)
 
+function jogoForca(){
+    window.location.href='https://andreaasilva.github.io/jogo-da-forca/'
+}
+
+var quarto_botao = document.getElementById('projetos__botao__quarto__projeto')
+quarto_botao.addEventListener('click', jogoForca)
 
 
 
