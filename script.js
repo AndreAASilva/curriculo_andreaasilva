@@ -37,4 +37,10 @@ function paginaPokemon(){
     window.location.href='https://andreaasilva.github.io/projeto-pokemon/'
 }
 
+const sexto_botao = document.getElementById('projetos__botao__sexto__projeto')
+sexto_botao.addEventListener('click', relogioDigital)
+
+function relogioDigital(){
+    window.location.href='https://andreaasilva.github.io/relogio-digitial/'
+}
 
