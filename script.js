@@ -1,46 +1,30 @@
-const primeiro_botao = document.getElementById('projetos__botao__primeiro__projeto')
-primeiro_botao.addEventListener('click', botaoCalculadora)
-
-function botaoCalculadora(){
+const calculadora = document.getElementById('projetos__botao__primeiro__projeto')
+calculadora.addEventListener('click', ()=>{
     window.location.href = 'https://andreaasilva.github.io/calculadora/'
-}
+})
 
-
-const segundo_botao = document.getElementById('projetos__botao__segundo__projeto')
-segundo_botao.addEventListener('click', botaoJogoVelha)
-
-function botaoJogoVelha(){
+const jogoDaVelha = document.getElementById('projetos__botao__segundo__projeto')
+jogoDaVelha.addEventListener('click', ()=>{
     window.location.href = 'https://andreaasilva.github.io/jogo-da-velha/'
-}
+})
 
-
-const terceiro_botao = document.getElementById('projetos__botao__terceiro__projeto')
-terceiro_botao.addEventListener('click', botaoPortfolio)
-
-function botaoPortfolio(){
+const modeloPortfolio = document.getElementById('projetos__botao__terceiro__projeto')
+modeloPortfolio.addEventListener('click', ()=>{
     window.location.href= 'https://projeto-portifolio-html-css.vercel.app/index.html'
-}
+})
 
-
-const quarto_botao = document.getElementById('projetos__botao__quarto__projeto')
-quarto_botao.addEventListener('click', jogoForca)
-
-function jogoForca(){
+const jogoForca = document.getElementById('projetos__botao__quarto__projeto')
+jogoForca.addEventListener('click', ()=>{
     window.location.href='https://andreaasilva.github.io/jogo-da-forca/'
-}
+})
 
-
-const quinto_botao = document.getElementById('projetos__botao__quinto__projeto')
-quinto_botao.addEventListener('click', paginaPokemon)
-
-function paginaPokemon(){
+const paginaPokemon = document.getElementById('projetos__botao__quinto__projeto')
+paginaPokemon.addEventListener('click', ()=>{
     window.location.href='https://andreaasilva.github.io/projeto-pokemon/'
-}
+})
 
-const sexto_botao = document.getElementById('projetos__botao__sexto__projeto')
-sexto_botao.addEventListener('click', relogioDigital)
-
-function relogioDigital(){
+const relogioDigital = document.getElementById('projetos__botao__sexto__projeto')
+relogioDigital.addEventListener('click', ()=>{
     window.location.href='https://andreaasilva.github.io/relogio-digitial/'
-}
+})
 
