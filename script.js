@@ -28,3 +28,7 @@ relogioDigital.addEventListener('click', ()=>{
     window.location.href='https://andreaasilva.github.io/relogio-digitial/'
 })
 
+const formularioCadastro = document.getElementById('projetos__botao__setimo__projeto')
+formularioCadastro.addEventListener('click',()=>{
+    window.location.href='https://andreaasilva.github.io/formulario_cadastro/'
+})

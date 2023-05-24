@@ -303,21 +303,13 @@ body{
     
 }
 
-.projetos__botao__primeira__linha{
+.projetos__botao__primeira__linha,
+.projetos__botao__segunda__linha,
+.projetos__botao__terceira__linha {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap:10px;
-    
-    
-}
-
-.projetos__botao__segunda__linha{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:10px;
-    
 }
 
 .projetos__botao{
@@ -377,20 +369,14 @@ body{
         padding: 36px 50px 36px 50px;
     }
 
-    .projetos__botao__primeira__linha{
+    .projetos__botao__primeira__linha,
+    .projetos__botao__segunda__linha,
+    .projetos__botao__terceira__linha{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         
-        
-    }
-
-    .projetos__botao__segunda__linha{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
         
     }
 
