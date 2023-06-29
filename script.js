@@ -32,3 +32,8 @@ const formularioCadastro = document.getElementById('projetos__botao__setimo__pro
 formularioCadastro.addEventListener('click',()=>{
     window.location.href='https://andreaasilva.github.io/formulario_cadastro/'
 })
+
+const primeFilmes = document.getElementById('projetos__botao__oitavo__projeto')
+primeFilmes.addEventListener('click', ()=>{
+    window.location.href='https://projeto-filmes-prime.netlify.app/'
+})
