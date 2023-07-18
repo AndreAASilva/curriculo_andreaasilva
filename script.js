@@ -37,3 +37,8 @@ const primeFilmes = document.getElementById('projetos__botao__oitavo__projeto')
 primeFilmes.addEventListener('click', ()=>{
     window.location.href='https://projeto-filmes-prime.netlify.app/'
 })
+
+const listaTarefas = document.getElementById('projetos__botao__nono__projeto')
+listaTarefas.addEventListener('click', ()=>{
+    window.location.href='https://projeto-lista-tarefas.netlify.app/'
+})
