@@ -66,7 +66,7 @@ body{
     display:flex;
     flex-direction: column;
     height: 100%;
-    background-color: #DDEEDF;
+    background-color: #fff;
 }
 
 .apresentacao__sobre{
